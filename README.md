@@ -5,7 +5,7 @@ A allocator based Loki allocator and pool allocator.
 
 本项目实现了gcc2.9中pool allocator，Loki库中的分配器，以及new_allocator。
 
-并且基于这些分配器，实现了自己的分配器（xd::Loki_allocator），并对比测试了常见的分配器。
+并且基于这些分配器，实现了自己的分配器（xd::Loki_allocator）见Loki_allocator.h，并对比测试了常见的分配器。
 
 ## 测试分配器
 
